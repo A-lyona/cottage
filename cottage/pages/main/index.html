@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Восточный сад - коттеджный посёлок</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="../../assets/0.png" type="image/x-icon" />
+  </head>
+  <body> 
+    <header>
+      <nav class="header_wrapper">
+        <a class="link" href="../../pages/main/index.html"
+        ><img src="../../assets/2.jpg" alt="logo" class="header_logo" /></a>
+        <a class="link" href="../../pages/main/index.html"
+          ><li class="header_main">ГЛАВНАЯ</li></a
+        >
+        <a class="link" href="../../pages/photogallery/index.html"
+          ><li class="hover">ФОТОГАЛЕРЕЯ</li></a
+        >
+        <a class="link" href="../../pages/contacts/index.html"
+          ><li class="hover">КОНТАКТЫ</li></a
+        >
+        <div class="header_phone">
+          <button class="header_phone_but">8(029)390-01-01</button>
+          <p class="header_phone_text">Звоните прямо сейчас</p>
+        </div>
+        <!--........................................................бургер-меню................................................-->
+        <div class="burger_button">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <!--........................................................бургер-меню................................................-->
+      </nav>
+    </header>
+    <main class="main_wrapper">
+    <!--........................................................бургер-меню................................................-->
+    <div class="burger_wrapper">
+      <a class="link" href="../../pages/main/index.html"
+        ><li class="burger_link">ГЛАВНАЯ</li></a
+      >
+      <a class="link" href="../../pages/photogallery/index.html"
+        ><li class="burger_link">ФОТОГАЛЕРЕЯ</li></a
+      >
+      <a class="link" href="../../pages/contacts/index.html"
+        ><li class="burger_link">КОНТАКТЫ</li></a
+      >
+    </div>
+    <!--........................................................бургер-меню................................................--> 
+      <section class="section_one">
+        <div class="section_one_wrapper">
+          <h2 class="section_one_title">
+            Земельные участки под строительство в коттеджном поселке "<span
+              class="span_text"
+              >Восточный сад</span
+            >" Минск
+          </h2>
+          <p class="section_one_text">
+            Приглашаем вас посмотреть и выбрать участок. Позвоните нам и мы
+            уточним дату и время.
+          </p>
+          <p class="section_one_text">
+            Стоимость земельных участков от 990$ за кв.м.
+          </p>
+          <button class="section_one_but" id="myBtn">ПОДОБРАТЬ УЧАСТОК</button>
+        </div>
+        <!-- .............................Модальное окно..................................... -->
+        <div id="myModal" class="modal">
+          <div class="modal_content_one">
+            <div class="modal_content_card_wrapper">
+              <div class="modal_content_title_wrapper">
+                <h2 class="modal_content_title">
+                  Для каких целей выбираете участок?
+                </h2>
+                <p class="modal_content_title">01/04</p>
+              </div>
+              <div class="modal_content_card">
+                <div class="modal_content_card_img card_img_one">
+                  <img src="../../assets/65.png" alt="logo" class="modal_img" />
+                  <p class="modal_content_card_text">
+                    Строительство дома для постоянного проживания
+                  </p>
+                </div>
+                <div class="modal_content_card_img card_img_two">
+                  <img src="../../assets/66.png" alt="logo" class="modal_img" />
+                  <p class="modal_content_card_text">
+                    Строительство для сезонного проживания
+                  </p>
+                </div>
+                <div class="modal_content_card_img card_img_three">
+                  <img src="../../assets/67.png" alt="logo" class="modal_img" />
+                  <p class="modal_content_card_text">Инвестиции</p>
+                </div>
+                <div class="modal_content_card_img card_img_four">
+                  <img src="../../assets/68.png" alt="logo" class="modal_img" />
+                  <p class="modal_content_card_text">Другое</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal_content_btn">
+              <button class="close">ЗАКРЫТЬ</button>
+              <button class="ahead">ДАЛЕЕ</button>
+            </div>
+          </div>
+          <div class="modal_content_two">
+            <div class="modal_content_title_wrapper_two">
+              <h2 class="modal_content_title_two">
+                Желаемая площадь участка (соток)
+              </h2>
+              <p class="modal_content_title_two">02/04</p>
+            </div>
+            <div class="modal_content_card_two">
+              <div class="modal_card_two">
+                <div class="card_text_one modal_content_card_wrapper_two">
+                  <p class="modal_card_two_text">До 7 соток</p>
+                </div>
+                <div class="card_text_two modal_content_card_wrapper_two">
+                  <p class="modal_card_two_text">Более 14 соток</p>
+                </div>
+                <div class="card_text_three modal_content_card_wrapper_two">
+                  <p class="modal_card_two_text">От 7 до 14 соток</p>
+                </div>
+                <div class="card_text_four modal_content_card_wrapper_two">
+                  <p class="modal_card_two_text">Другое</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal_content_btn">
+              <button class="back_two">НАЗАД</button>
+              <button class="ahead_two">ДАЛЕЕ</button>
+            </div>
+          </div>
+          <div class="modal_content_three">
+            <div class="modal_content_title_wrapper_three">
+              <h2 class="modal_content_title_three">
+                Выберите способ строительтва
+              </h2>
+              <p class="modal_content_title_three">03/04</p>
+            </div>
+            <div class="modal_content_card_three">
+              <div class="modal_card_three">
+                <div class="card_three_text_one card_three_text_wrapper">
+                  <p class="modal_card_three_text">Свой подрядчик</p>
+                </div>
+                <div class="card_three_text_two card_three_text_wrapper">
+                  <p class="modal_card_three_text">
+                    Самостоятельное строительство
+                  </p>
+                </div>
+                <div class="card_three_text_three card_three_text_wrapper">
+                  <p class="modal_card_three_text">
+                    Наша компания от проекта до вручения ключей
+                  </p>
+                </div>
+                <div class="card_three_text_four card_three_text_wrapper">
+                  <p class="modal_card_three_text">Другое</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal_content_btn">
+              <button class="back_three">НАЗАД</button>
+              <button class="ahead_three">ДАЛЕЕ</button>
+            </div>
+          </div>
+          <div class="modal_content_four">
+            <div class="modal_content_title_wrapper_four">
+              <h2 class="modal_content_title_four">
+                Когда хотели бы начать строительство?
+              </h2>
+              <p class="modal_content_title_four">04/04</p>
+            </div>
+            <div class="modal_content_card_four">
+              <div class="modal_card_four">
+                <div class="card_four_text_one card_four_text_wrapper">
+                  <p class="modal_card_four_text">В течении 3 месяцев</p>
+                </div>
+                <div class="card_four_text_two card_four_text_wrapper">
+                  <p class="modal_card_four_text">В течении 6 месяцев</p>
+                </div>
+                <div class="card_four_text_three card_four_text_wrapper">
+                  <p class="modal_card_four_text">В течении 12 месяцев</p>
+                </div>
+                <div class="card_four_text_four card_four_text_wrapper">
+                  <p class="modal_card_four_text">Другое</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal_content_btn">
+              <button class="back_four">НАЗАД</button>
+              <button class="ahead_four">ДАЛЕЕ</button>
+            </div>
+          </div>
+          <div class="modal_content_five">
+            <h2 class="modal_content_five_title">
+              Cпасибо за ответы! Оставьте свой телефон. Мы сообщим вам все
+              подробности о вашем участке.
+            </h2>
+            <p class="modal_content_five_text">
+              + забронируем за вами беспроцентную рассрочку
+            </p>
+            <form class="modal_content_five_form">
+              <div class="modal_content_five_container">
+                <input
+                  type="text"
+                  placeholder="Ваше имя"
+                  name="name"
+                  value=""
+                  class="input_text"
+                  required
+                />
+                <input
+                  type="tel"
+                  placeholder="Ваш телефон"
+                  name="tel"
+                  value=""
+                  class="input_tel"
+                  required
+                />
+              </div>
+            </form>
+            <div class="modal_content_five_container">
+              <button class="modal_content_five_but">ОТПРАВИТЬ</button>
+            </div>
+          </div>
+        </div>
+        <!--............................... Модальное окно...................................... -->
+      </section>
+      <section class="section_two">
+        <div class="section_two_wrapper">
+          <h2 class="section_two_title">
+            Преимущества покупки участка под строительство дома в КП "<span
+              class="span_text"
+              >Восточный сад</span
+            >"
+          </h2>
+          <div class="section_two_card">
+            <div class="section_two_card_wrapper">
+              <img
+                src="../../assets/3.png"
+                alt="photo"
+                class="section_two_card_img"
+              />
+              <p class="section_two_card_text">Подведено электричество</p>
+            </div>
+            <div class="section_two_card_wrapper">
+              <img
+                src="../../assets/4.png"
+                alt="photo"
+                class="section_two_card_img"
+              />
+              <p class="section_two_card_text">
+                Возможность получения прописки
+              </p>
+            </div>
+            <div class="section_two_card_wrapper">
+              <img
+                src="../../assets/5.png"
+                alt="photo"
+                class="section_two_card_img"
+              />
+              <p class="section_two_card_text">
+                Беспроцентная рассрочка платежа
+              </p>
+            </div>
+          </div>
+          <div class="section_two_card">
+            <div class="section_two_card_wrapper">
+              <img
+                src="../../assets/6.png"
+                alt="photo"
+                class="section_two_card_img"
+              />
+              <p class="section_two_card_text">
+                Есть возможность газифицирования
+              </p>
+            </div>
+            <div class="section_two_card_wrapper">
+              <img
+                src="../../assets/7.png"
+                alt="photo"
+                class="section_two_card_img"
+              />
+              <p class="section_two_card_text">Будет ходить рейсовый автобус</p>
+            </div>
+            <div class="section_two_card_wrapper">
+              <img
+                src="../../assets/8.png"
+                alt="photo"
+                class="section_two_card_img"
+              />
+              <p class="section_two_card_text">Подключен Руэс РУП Белтелеком</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_three">
+        <div class="section_three_wrapper">
+          <div class="section_three_block">
+            <h2 class="section_three_title">
+              О нашем посёлке
+            </h2>
+            <p class="section_three_text">
+              &#10086;&nbsp;&nbsp; Коттеджный посёлок находится в 30 минутах
+              езды от Минска, рядом с трассой М1.
+            </p>
+            <p class="section_three_text">
+              &#10086;&nbsp;&nbsp; Легкодоступность городской инфраструктуры.
+            </p>
+            <p class="section_three_text">
+              &#10086;&nbsp;&nbsp; Посёлок располагается рядом с хвойным лесным
+              массивом. Живописный вид с участков, чистый воздух и большое
+              количество зелени.
+            </p>
+            <p class="section_three_text">
+              &#10086;&nbsp;&nbsp; Территория застройки вымощена плиткой и
+              ограждена еврозабором.
+            </p>
+
+            <p class="section_three_text">
+              &#10086;&nbsp;&nbsp; Организована круглосуточная охрана.
+            </p>
+            <p class="section_three_text">
+              &#10086;&nbsp;&nbsp; Глубина бурения артезианской скважины 30-40
+              метров.
+            </p>
+            <p class="section_three_text">
+              &#10086;&nbsp;&nbsp; Площадь посёлка 12 га.
+            </p>
+            <p class="section_three_text">
+              &#10086;&nbsp;&nbsp; Проработанная архитектурная концепция.
+            </p>
+          </div>
+        </div>
+        <img
+          src="../../assets/11.png"
+          alt="photo"
+          class="section_three_cloud"
+        />
+      </section>
+      <section class="section_four">
+        <div class="section_four_wrapper">
+          <h2 class="section_four_title">НАШИ ПРОЕКТЫ ДОМОВ</h2>
+          <div class="section_four_card_wrapper">
+            <div class="section_four_card">
+              <img
+                src="../../assets/12.png"
+                alt="photo"
+                class="section_four_card_img"
+              />
+              <h3 class="section_four_card_title">Проект "РАЙТ 1"</h3>
+              <p class="section_four_card_text">
+                &#8226; Площадь дома: 50.35 м²
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Габариты дома: 9,0x10.6* м (полные габариты дома)
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Этажность: Одноэтажный дом
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Наличие гаража: Без гаража
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Площадь застройки: 95.4 м²
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Высота в коньке: 4.9 (от уровня пола первого этажа ).
+                Высота &nbsp;&nbsp;цоколя 0,6 м
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Площадь крыши: 117 м²
+              </p>
+              <a class="link" href="../../pages/rectangleOne/index.html"
+                ><button class="section_four_card_but">
+                  ПОЛУЧИТЬ ПОЛНУЮ ПРЕЗЕНТАЦИЮ ДОМА
+                </button></a
+              >
+            </div>
+            <div class="section_four_card">
+              <img
+                src="../../assets/13.png"
+                alt="photo"
+                class="section_four_card_img"
+              />
+              <h3 class="section_four_card_title">Проект "РАЙТ 2"</h3>
+              <p class="section_four_card_text">
+                &#8226; Площадь дома: 110.2 м²
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Габариты дома: 8.9х9.96 * м (без веранд, крылец и
+                балконов)
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Этажность: Одноэтажный дом с мансардой
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Наличие гаража: Без гаража
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Площадь застройки: 88.67 м²
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Высота в коньке: 8.3 м (от уровня пола первого этажа).
+                &nbsp;&nbsp;Высота цоколя 0,6 м
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Площадь крыши: 143.0 м²
+              </p>
+              <a class="link" href="../../pages/rectangleTwo/index.html"
+                ><button class="section_four_card_but">
+                  ПОЛУЧИТЬ ПОЛНУЮ ПРЕЗЕНТАЦИЮ ДОМА
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="section_four_card_wrapper">
+            <div class="section_four_card">
+              <img
+                src="../../assets/14.png"
+                alt="photo"
+                class="section_four_card_img"
+              />
+              <h3 class="section_four_card_title">Проект "РАЙТ 3"</h3>
+              <p class="section_four_card_text">
+                &#8226; Площадь дома: 232.5 м²
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Габариты дома: 15,0x11.9* м (без веранд, крылец и
+                балконов)
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Этажность: Двухэтажный дом
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Наличие гаража: Гараж на 1 автомобиль
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Площадь застройки: 168.2 м²
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Высота в коньке: 9.0 м (от уровня пола первого этажа).
+                &nbsp;&nbsp;Высота цоколя 1.0 м
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Площадь крыши: 225 м²
+              </p>
+              <a class="link" href="../../pages/rectangleThree/index.html"
+                ><button class="section_four_card_but">
+                  ПОЛУЧИТЬ ПОЛНУЮ ПРЕЗЕНТАЦИЮ ДОМА
+                </button></a
+              >
+            </div>
+            <div class="section_four_card">
+              <img
+                src="../../assets/15.png"
+                alt="photo"
+                class="section_four_card_img"
+              />
+              <h3 class="section_four_card_title1">
+                Проект "СЕЛЬСКИЙ ДОМИК"
+              </h3>
+              <p class="section_four_card_text">&#8226; Общая площадь: 44 м²</p>
+              <p class="section_four_card_text">
+                &#8226; Возможный материал стен: газобетон, кирпич, керамические
+                &nbsp;&nbsp;блоки
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Возможный материал кровли: металлочерепица, гибкая
+                &nbsp;&nbsp;черепица, керамическая черепица
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Тип перекрытий: по деревянным балкам, монолитное ж/б,
+                &nbsp;&nbsp;плиты ПК
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Количество жилых комнат: 2
+              </p>
+              <p class="section_four_card_text">
+                &#8226; Количество этажей: одноэтажный
+              </p>
+              <a class="link" href="../../pages/rectangleFour/index.html"
+                ><button class="section_four_card_but">
+                  ПОЛУЧИТЬ ПОЛНУЮ ПРЕЗЕНТАЦИЮ ДОМА
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_five">
+        <div class="section_five_wrapper">
+          <h2 class="section_five_title">
+            Приезжайте в "<span class="span_text">ВОСТОЧНЫЙ САД</span>" на
+            экскурсию
+          </h2>
+          <div class="section_five_card_wrapper">
+            <div class="section_five_card_list">
+              <p class="section_five_card_list_text">
+                &#10047; Прогуляетесь по территории, посетите выбранные участки,
+                познакомьтесь с соседями
+              </p>
+              <p class="section_five_card_list_text">
+                &#10047; Сможете изучить поселок и окрестности
+              </p>
+              <p class="section_five_card_list_text">
+                &#10047; Зададите все интересующие вас вопросы
+              </p>
+              <p class="section_five_card_list_text">
+                &#10047; Побываете на своем будущем участке
+              </p>
+            </div>
+            <form class="decor">
+              <div class="form_left_decoration"></div>
+              <div class="form_right_decoration"></div>
+              <div class="form_inner">
+                <h3 class="decor_title">
+                  Оставьте свой номер и мы вам перезвоним
+                </h3>
+                <input
+                  type="text"
+                  placeholder="Ваше имя"
+                  class="input_class"
+                  required
+                />
+                <input
+                  type="tel"
+                  placeholder="Ваш телефон"
+                  class="input_class"
+                  required
+                />
+                <input
+                type="text"
+                  placeholder="Комментарий..."
+                  class="input_class"
+                ></input>
+                <input type="submit" value="Отправить" class="input_but" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_wrapper">
+        <a class="link" href="../../pages/main/index.html"
+            ><img src="../../assets/2.jpg" alt="logo" class="footer_logo" /></a>
+        <nav class="footer_wrapper_navigation">
+          <a class="link" href="../../pages/main/index.html"
+            ><li class="footer_hover">ГЛАВНАЯ</li></a
+          >
+          <a class="link" href="../../pages/photogallery/index.html"
+            ><li class="footer_hover">ФОТОГАЛЕРЕЯ</li></a
+          >
+          <a class="link" href="../../pages/contacts/index.html"
+            ><li class="footer_hover">КОНТАКТЫ</li></a
+          >
+        </nav>
+        <div class="footer_contacts">
+          <p class="footer_contacts_text">
+            Минск, пр-т Победителей 100, 220000
+          </p>
+          <p class="footer_contacts_text">
+            Бизнес-центр "ПОКРОВСКИЙ", 8 этаж, 817 Пн-Пт: 09:00-18:00
+          </p>
+          <p class="footer_contacts_text">Телефон: 8(029)390-01-01</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
